@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">TravelRecommend</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
+            <button id="btnSearch">Search</button>
+            <button id="btnClear">Clear</button>
+        </div>
+    </nav>
+
+    <!-- Trang Home -->
+    <section id="home" class="section">
+        <h1>Welcome to Travel Recommendation</h1>
+        <p>Explore the best destinations around the world. Find beaches, temples, or countries you want to visit.</p>
+    </section>
+
+    <!-- Trang About Us -->
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>We are a passionate team dedicated to providing the best travel recommendations. Our experts travel the globe to bring you verified and stunning locations.</p>
+    </section>
+
+    <!-- Trang Contact Us -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Khu vực hiển thị kết quả tìm kiếm -->
+    <div id="results" class="results-container"></div>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
