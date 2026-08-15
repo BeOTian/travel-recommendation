@@ -1,0 +1,43 @@
+{
+  "countries": [
+    {
+      "name": "Japan",
+      "cities": [
+        {
+          "name": "Tokyo",
+          "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=500",
+          "description": "Tokyo is the capital of Japan."
+        },
+        {
+          "name": "Kyoto",
+          "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=500",
+          "description": "Kyoto is famous for its classical Buddhist temples."
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "name": "Taj Mahal",
+      "imageUrl": "https://images.unsplash.com/photo-1564507592208-5287115429c9?w=500",
+      "description": "An ivory-white marble mausoleum in India."
+    },
+    {
+      "name": "Angkor Wat",
+      "imageUrl": "https://images.unsplash.com/photo-1600803402421-dbb179261a86?w=500",
+      "description": "A temple complex in Cambodia and the largest religious monument in the world."
+    }
+  ],
+  "beaches": [
+    {
+      "name": "Bora Bora",
+      "imageUrl": "https://images.unsplash.com/photo-1533692328991-08159ff19fca?w=500",
+      "description": "An island group in the Leeward Islands."
+    },
+    {
+      "name": "Copacabana",
+      "imageUrl": "https://images.unsplash.com/photo-1512462828624-9b2f6f5926ec?w=500",
+      "description": "A bairro in the South Zone of the city of Rio de Janeiro, Brazil."
+    }
+  ]
+}
